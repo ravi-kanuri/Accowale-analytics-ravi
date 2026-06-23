@@ -9,6 +9,6 @@ export const createFeedbackSchema = z.object({
 
   comment: z
     .string()
-    .min(10)
+    .min(1)
     .max(1000),
 });
